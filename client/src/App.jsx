@@ -1,15 +1,20 @@
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+import Dashboard from "./components/Dashboard";
+import Messages from "./components/Messages";
 
 function App() {
-
   return (
-    <>
-      <div>
-        <h1 className="text-3xl font-bold underline">Hello World</h1>
-        Hello World
-      </div>
-    </>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Dashboard />} />
+          <Route path="messages" element={<Messages />} />
+        </Route>
+        <Route path="login" element={<div>This is Login Page</div>} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
