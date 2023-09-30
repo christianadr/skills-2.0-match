@@ -6,6 +6,8 @@ export default {
       blue: "#0E64B4",
       "light-blue": "#C5DFF8",
       "light-green": "#CAF0C7",
+      white: "#FFF8F3",
+      gray: "#696D63",
     },
     extend: {},
   },
