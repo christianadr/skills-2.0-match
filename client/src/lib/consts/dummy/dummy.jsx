@@ -8,7 +8,7 @@ export const DUMMY_DATA_ABOUT = [
 export const DUMMY_DATA_INFO = [
   {
     name: "Relani Ynessa",
-    date: "July 19-25",
+    date: "July 19 - July 25",
     candidatesReview: 20,
     toInterview: 3,
     receivedMessages: 24,
