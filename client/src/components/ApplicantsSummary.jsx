@@ -56,7 +56,7 @@ export default function ApplicantsSummary() {
                 <Pie
                   data={APPLICANTS}
                   cx="50%"
-                  cy="50%"
+                  cy="55%"
                   labelLine={false}
                   label={renderCustomizedLabel}
                   outerRadius={80}
