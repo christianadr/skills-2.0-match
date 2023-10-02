@@ -3,12 +3,13 @@ import { DUMMY_DATA_INFO } from "../lib/consts/dummy/dummy";
 import { IoCalendar } from "react-icons/io5";
 import DashboardStatsGrid from "./DashboardStatsGrid";
 import JobStatistics from "./JobStatistics";
+import ApplicantsSummary from "./ApplicantsSummary";
 
 export default function Dashboard() {
   return (
     <div className="p-3">
       {DUMMY_DATA_INFO.map((item) => (
-        <div className="h-32 p-3 px-5 flex flex-col">
+        <div className="h-28 p-3 px-5 flex flex-col">
           <div className="items-center flex flex-row">
             <div className="flex-1 flex flex-col gap-3">
               <span className="font-black text-4xl">
@@ -28,7 +29,10 @@ export default function Dashboard() {
         </div>
       ))}
       <DashboardStatsGrid />
-      <JobStatistics />
+      <div className="flex flex-row gap-4 w-full py-3">
+        <JobStatistics />
+        <ApplicantsSummary />
+      </div>
     </div>
   );
 }

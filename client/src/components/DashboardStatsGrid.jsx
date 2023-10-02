@@ -1,12 +1,13 @@
 import React from "react";
-import { IoPeopleSharp } from "react-icons/io5";
+import { IoPeopleSharp, IoPersonAdd } from "react-icons/io5";
 import { DUMMY_DATA_INFO } from "../lib/consts/dummy/dummy";
+import { BiSolidMessageDetail } from "react-icons/bi";
 
 export default function DashboardStatsGrid() {
   return (
     <>
       {DUMMY_DATA_INFO.map((item) => (
-        <div className="flex gap-2 py-5">
+        <div className="flex gap-2 py-3">
           <BoxWrapper>
             <div className="rounded-full h-12 w-12 bg-blue flex items-center justify-center">
               <IoPeopleSharp className="text-2xl text-white" />
@@ -23,8 +24,8 @@ export default function DashboardStatsGrid() {
             </div>
           </BoxWrapper>
           <BoxWrapper>
-            <div className="rounded-full h-12 w-12 bg-blue flex items-center justify-center">
-              <IoPeopleSharp className="text-2xl text-white" />
+            <div className="rounded-full h-12 w-12 bg-dark-yellow flex items-center justify-center">
+              <IoPersonAdd className="text-2xl text-white" />
             </div>
             <div className="pl-4">
               <span className="text-sm font-semibold">
@@ -38,8 +39,8 @@ export default function DashboardStatsGrid() {
             </div>
           </BoxWrapper>
           <BoxWrapper>
-            <div className="rounded-full h-12 w-12 bg-blue flex items-center justify-center">
-              <IoPeopleSharp className="text-2xl text-white" />
+            <div className="rounded-full h-12 w-12 bg-green flex items-center justify-center">
+              <BiSolidMessageDetail className="text-2xl text-white" />
             </div>
             <div className="pl-4">
               <span className="text-sm font-semibold">Messages Received</span>
@@ -58,7 +59,7 @@ export default function DashboardStatsGrid() {
 
 function BoxWrapper({ children }) {
   return (
-    <div className="bg-light-green rounded p-4 flex-1 flex items-center h-24">
+    <div className="bg-white rounded-md border border-gray rounded p-4 flex-1 flex items-center h-24">
       {children}
     </div>
   );

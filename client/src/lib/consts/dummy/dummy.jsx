@@ -15,7 +15,7 @@ export const DUMMY_DATA_INFO = [
   },
 ];
 
-export const DATA = [
+export const DATA1 = [
   {
     name: "Monday",
     jobViews: 117,
@@ -50,5 +50,16 @@ export const DATA = [
     name: "Sunday",
     jobViews: 13,
     jobApplied: 131,
+  },
+];
+
+export const APPLICANTS = [
+  {
+    name: "Full Time",
+    value: 40,
+  },
+  {
+    name: "Part Time",
+    value: 27,
   },
 ];

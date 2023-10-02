@@ -8,7 +8,7 @@ import { Popover } from "@mui/material";
 export default function Header() {
   return (
     <div className="p-3">
-      <div className="bg-white items-center h-28 px-5 py-5 flex flex-row pt-2 border-b border-blue gap">
+      <div className="items-center h-28 px-5 py-5 flex flex-row pt-2 border-b border-blue gap">
         <div className="flex-1 flex flex-row gap-3">
           {DUMMY_DATA_ABOUT.map((item, index) => (
             <>
