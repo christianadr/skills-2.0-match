@@ -2,6 +2,7 @@ import React from "react";
 import { DUMMY_DATA_INFO } from "../lib/consts/dummy/dummy";
 import { IoCalendar } from "react-icons/io5";
 import DashboardStatsGrid from "./DashboardStatsGrid";
+import JobStatistics from "./JobStatistics";
 
 export default function Dashboard() {
   return (
@@ -24,9 +25,10 @@ export default function Dashboard() {
               </span>
             </div>
           </div>
-          <DashboardStatsGrid />
         </div>
       ))}
+      <DashboardStatsGrid />
+      <JobStatistics />
     </div>
   );
 }
