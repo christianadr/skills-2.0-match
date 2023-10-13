@@ -50,8 +50,13 @@ export default function AllApplicants() {
   console.log(tableData);
 
   return (
-    <div className="p-3">
-      <div className="w-full h-screen">
+    <div className="flex flex-col p-3 gap-5">
+      <div>
+        <span className="text-3xl font-black">
+          Total Applicants: {tableData.length}
+        </span>
+      </div>
+      <div className="w-full h-[26rem]">
         <DataGrid rows={tableData} columns={columns} pagination />
       </div>
     </div>
