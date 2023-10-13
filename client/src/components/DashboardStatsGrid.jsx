@@ -1,6 +1,6 @@
 import React from "react";
 import { IoPeopleSharp, IoPersonAdd } from "react-icons/io5";
-import { DUMMY_DATA_INFO } from "../lib/consts/dummy/dummy";
+import { DUMMY_DATA_INFO } from "./lib/consts/dummy/dummy";
 import { BiSolidMessageDetail } from "react-icons/bi";
 
 export default function DashboardStatsGrid() {

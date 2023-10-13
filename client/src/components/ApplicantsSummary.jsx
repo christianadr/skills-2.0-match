@@ -1,6 +1,6 @@
 import React from "react";
 import { ResponsiveContainer, Cell, Legend, PieChart, Pie } from "recharts";
-import { APPLICANTS } from "../lib/consts/dummy/dummy";
+import { APPLICANTS } from "./lib/consts/dummy/dummy";
 
 const COLORS = ["#0E64B4", "#E8A01A"];
 

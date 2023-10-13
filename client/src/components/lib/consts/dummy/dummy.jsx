@@ -63,3 +63,38 @@ export const APPLICANTS = [
     value: 27,
   },
 ];
+
+export const PROFILE = [
+  {
+    name: "Relani Ynessa De Alba",
+    email: "relani.hr@gmail.com",
+    profile_pic: "src/components/lib/consts/dummy/profile.svg",
+  },
+];
+
+export const JOB_UPDATES = [
+  {
+    image: "src/assets/dell-logo.svg",
+    job_type: "Full Time",
+    position: "Social Media Assistant",
+    company: "Dell - Philippines",
+  },
+  {
+    image: "src/assets/dell-logo.svg",
+    job_type: "Full Time",
+    position: "Social Media Assistant",
+    company: "Dell - Philippines",
+  },
+  {
+    image: "src/assets/dell-logo.svg",
+    job_type: "Full Time",
+    position: "Social Media Assistant",
+    company: "Dell - Philippines",
+  },
+  {
+    image: "src/assets/dell-logo.svg",
+    job_type: "Full Time",
+    position: "Social Media Assistant",
+    company: "Dell - Philippines",
+  },
+];

@@ -1,6 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/@material-tailwind/react/components/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/@material-tailwind/react/theme/components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     colors: {
       blue: "#0E64B4",
@@ -12,6 +17,7 @@ export default {
       white: "#ffffff",
       gray: "#696D63",
       yellow: "#FFF40A",
+      "light-yellow": "#F7F1AB",
       "dark-yellow": "#E8A01A",
     },
     extend: {},

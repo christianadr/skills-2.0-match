@@ -9,7 +9,7 @@ import {
   Tooltip,
   Legend,
 } from "recharts";
-import { DATA1, DUMMY_DATA_INFO } from "../lib/consts/dummy/dummy";
+import { DATA1, DUMMY_DATA_INFO } from "./lib/consts/dummy/dummy";
 
 export default function JobStatistics() {
   return (
