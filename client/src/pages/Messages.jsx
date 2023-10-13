@@ -96,10 +96,10 @@ function MessageContent({ contact }) {
             </div>
             {/* <div className="py-3"> */}
             <div className="chat-header font-bold">{contact.name}</div>
-            <div className="chat-bubble chat-bubble-success max-w-[14rem]">
+            <div className="chat-bubble chat-bubble-success max-w-[14rem] bg-green">
               {contact.message_content}
             </div>
-            <div className="chat-footer opacity-50">
+            <div className={`chat-footer opacity-50`}>
               <time className="text-xs opacity-50">
                 {contact.last_sent} mins ago
               </time>
