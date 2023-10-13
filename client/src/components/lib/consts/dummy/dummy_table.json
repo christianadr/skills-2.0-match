@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "fullName": "Percival Archer",
+    "hiringStage": "Interview",
+    "appliedDate": "13 July 2023",
+    "jobRole": "Designer",
+    "action": "See Application"
+  },
+  {
+    "id": 2,
+    "fullName": "Eleanor Smith",
+    "hiringStage": "Shortlisted",
+    "appliedDate": "15 July 2023",
+    "jobRole": "UI/UX Designer",
+    "action": "See Application"
+  },
+  {
+    "id": 3,
+    "fullName": "Aiden Johnson",
+    "hiringStage": "Declined",
+    "appliedDate": "17 July 2023",
+    "jobRole": "Front-end Developer",
+    "action": "See Application"
+  },
+  {
+    "id": 4,
+    "fullName": "Lily Brown",
+    "hiringStage": "Accepted",
+    "appliedDate": "19 July 2023",
+    "jobRole": "Project Manager",
+    "action": "See Application"
+  },
+  {
+    "id": 5,
+    "fullName": "Oliver White",
+    "hiringStage": "Accepted",
+    "appliedDate": "21 July 2023",
+    "jobRole": "Marketing Specialist",
+    "action": "See Application"
+  },
+  {
+    "id": 6,
+    "fullName": "Sophia Wilson",
+    "hiringStage": "Shortlisted",
+    "appliedDate": "23 July 2023",
+    "jobRole": "Software Engineer",
+    "action": "See Application"
+  },
+  {
+    "id": 7,
+    "fullName": "Noah Taylor",
+    "hiringStage": "Declined",
+    "appliedDate": "25 July 2023",
+    "jobRole": "Data Analyst",
+    "action": "See Application"
+  },
+  {
+    "id": 8,
+    "fullName": "Isabella Lee",
+    "hiringStage": "Accepted",
+    "appliedDate": "27 July 2023",
+    "jobRole": "Product Manager",
+    "action": "See Application"
+  },
+  {
+    "id": 9,
+    "fullName": "Liam Hall",
+    "hiringStage": "Interview",
+    "appliedDate": "29 July 2023",
+    "jobRole": "Graphic Designer",
+    "action": "See Application"
+  },
+  {
+    "id": 10,
+    "fullName": "Ava Clark",
+    "hiringStage": "Shortlisted",
+    "appliedDate": "31 July 2023",
+    "jobRole": "Content Writer",
+    "action": "See Application"
+  },
+  {
+    "id": 11,
+    "fullName": "Olivia Turner",
+    "hiringStage": "Declined",
+    "appliedDate": "2 August 2023",
+    "jobRole": "Software Developer",
+    "action": "See Application"
+  },
+  {
+    "id": 12,
+    "fullName": "William Miller",
+    "hiringStage": "Accepted",
+    "appliedDate": "4 August 2023",
+    "jobRole": "Marketing Manager",
+    "action": "See Application"
+  },
+  {
+    "id": 13,
+    "fullName": "Emma Davis",
+    "hiringStage": "Interview",
+    "appliedDate": "6 August 2023",
+    "jobRole": "Data Scientist",
+    "action": "See Application"
+  },
+  {
+    "id": 14,
+    "fullName": "James Wilson",
+    "hiringStage": "Accepted",
+    "appliedDate": "8 August 2023",
+    "jobRole": "Project Coordinator",
+    "action": "See Application"
+  },
+  {
+    "id": 15,
+    "fullName": "Charlotte Moore",
+    "hiringStage": "Shortlisted",
+    "appliedDate": "10 August 2023",
+    "jobRole": "UX Designer",
+    "action": "See Application"
+  },
+  {
+    "id": 16,
+    "fullName": "Mason Brown",
+    "hiringStage": "Declined",
+    "appliedDate": "12 August 2023",
+    "jobRole": "Front-end Developer",
+    "action": "See Application"
+  },
+  {
+    "id": 17,
+    "fullName": "Amelia Smith",
+    "hiringStage": "Shortlisted",
+    "appliedDate": "14 August 2023",
+    "jobRole": "Content Writer",
+    "action": "See Application"
+  },
+  {
+    "id": 18,
+    "fullName": "Liam Johnson",
+    "hiringStage": "Accepted",
+    "appliedDate": "16 August 2023",
+    "jobRole": "Graphic Designer",
+    "action": "See Application"
+  },
+  {
+    "id": 19,
+    "fullName": "Evelyn Wilson",
+    "hiringStage": "Declined",
+    "appliedDate": "18 August 2023",
+    "jobRole": "Software Engineer",
+    "action": "See Application"
+  },
+  {
+    "id": 20,
+    "fullName": "Noah Miller",
+    "hiringStage": "Interview",
+    "appliedDate": "20 August 2023",
+    "jobRole": "Product Manager",
+    "action": "See Application"
+  }
+]

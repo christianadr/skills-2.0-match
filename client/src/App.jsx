@@ -3,6 +3,7 @@ import Layout from "./components/Shared/Layout";
 import Dashboard from "./pages/Dashboard";
 import Messages from "./pages/Messages";
 import { Profile } from "./pages/Profile";
+import AllApplicants from "./pages/AllApplicants";
 
 function App() {
   return (
@@ -12,10 +13,7 @@ function App() {
           <Route index element={<Dashboard />} />
           <Route path="messages" element={<Messages />} />
           <Route path="profile" element={<Profile />} />
-          <Route
-            path="all-applicants"
-            element={<div>All Applicants Page</div>}
-          />
+          <Route path="all-applicants" element={<AllApplicants />} />
           <Route path="job-listings" element={<div>Job Listings Page</div>} />
           <Route path="my-schedule" element={<div>My Schedule Page</div>} />
           <Route path="settings" element={<div>Settings Page</div>} />
