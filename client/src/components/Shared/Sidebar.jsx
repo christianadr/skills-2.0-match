@@ -15,7 +15,7 @@ const linkClasses =
 
 export default function Sidebar() {
   return (
-    <div className="bg-light-blue w-64 p-3 flex flex-col">
+    <div className="bg-light-blue w-72 p-3 flex flex-col">
       <div className="flex items-center gap-2 px-1 py-3">
         {/* <Logo width="60px" height="60px" /> */}
         <span className="font-bold">Skills2.0Match</span>

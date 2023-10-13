@@ -16,6 +16,7 @@ export default {
       "dirty-white": "#FFF8F3",
       white: "#ffffff",
       gray: "#696D63",
+      "gray-50": "#B1B1B1",
       yellow: "#FFF40A",
       "light-yellow": "#F7F1AB",
       "dark-yellow": "#E8A01A",

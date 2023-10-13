@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from "./components/Shared/Layout";
 import Dashboard from "./pages/Dashboard";
 import Messages from "./pages/Messages";
+import { Profile } from "./pages/Profile";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Dashboard />} />
           <Route path="messages" element={<Messages />} />
-          <Route path="profile" element={<div>Profile Page</div>} />
+          <Route path="profile" element={<Profile />} />
           <Route
             path="all-applicants"
             element={<div>All Applicants Page</div>}

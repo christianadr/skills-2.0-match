@@ -11,7 +11,7 @@ export default function Dashboard() {
     <>
       <div className="p-3">
         {DUMMY_DATA_INFO.map((item) => (
-          <div className="h-28 p-3 px-5 flex flex-col">
+          <div className="h-28 flex flex-col">
             <div className="items-center flex flex-row">
               <div className="flex-1 flex flex-col gap-3">
                 <span className="font-black text-4xl">
