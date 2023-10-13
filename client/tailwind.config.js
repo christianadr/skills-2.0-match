@@ -23,11 +23,5 @@ export default {
     },
     extend: {},
   },
-  plugins: [require("daisyui")],
-  daisyui: {
-    // base: false,
-    // styled: true,
-    // utils: true,
-    prefix: ``,
-  },
+  plugins: [],
 };

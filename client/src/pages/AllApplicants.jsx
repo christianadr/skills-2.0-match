@@ -3,14 +3,15 @@ import { DataGrid } from "@mui/x-data-grid";
 import { renderStatus } from "../components/lib/consts/renderers/renderStatus";
 
 const columns = [
-  { field: "fullName", headerName: "Full Name", width: 200 },
+  { field: "fullName", headerName: "Full Name", minWidth: 200, flex: 1 },
   {
     field: "hiringStage",
     headerName: "Hiring Stage",
     type: "singleSelect",
     renderCell: renderStatus,
     // editable: true,
-    width: 150,
+    minWidth: 150,
+    flex: 1,
     valueOptions: ({ row }) => {
       if (row === "Interview") {
         return (
@@ -21,9 +22,9 @@ const columns = [
       }
     },
   },
-  { field: "appliedDate", headerName: "Applied Date", width: 200 },
-  { field: "jobRole", headerName: "Job Role", width: 200 },
-  { field: "action", headerName: "Action", width: 200 },
+  { field: "appliedDate", headerName: "Applied Date", minWidth: 200, flex: 1 },
+  { field: "jobRole", headerName: "Job Role", minWidth: 200, flex: 1 },
+  { field: "action", headerName: "Action", minWidth: 200, flex: 1 },
 ];
 
 export default function AllApplicants() {
@@ -47,7 +48,7 @@ export default function AllApplicants() {
       });
   }, []);
 
-  console.log(tableData);
+  // console.log(tableData);
 
   return (
     <div className="flex flex-col p-3 gap-5">
@@ -56,8 +57,13 @@ export default function AllApplicants() {
           Total Applicants: {tableData.length}
         </span>
       </div>
-      <div className="w-full h-[26rem]">
-        <DataGrid rows={tableData} columns={columns} pagination />
+      <div className="w-full max-h-[8rem]">
+        <DataGrid
+          rows={tableData}
+          columns={columns}
+          pagination
+          initialState={{ pagination: { paginationModel: { pageSize: 10 } } }}
+        />
       </div>
     </div>
   );
