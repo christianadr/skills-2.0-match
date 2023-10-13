@@ -98,3 +98,107 @@ export const JOB_UPDATES = [
     company: "Dell - Philippines",
   },
 ];
+
+export const CONTACTS = [
+  {
+    profile: `src/components/lib/consts/dummy/profile2.svg`,
+    name: "Percival Archer",
+    position: "Designer Candidate",
+    last_sent: 12,
+    message_content:
+      "Hi Relani, Sure, I would love to. Thanks for taking time to see my work!",
+    is_online: true,
+  },
+  {
+    profile: `src/components/lib/consts/dummy/profile${
+      Math.floor(Math.random() * 2) + 2
+    }.svg`,
+    name: "Eleanor Smith",
+    position: "UI/UX Designer",
+    last_sent: 3,
+    message_content: "Hi Relani, How's everything going?",
+    is_online: true,
+  },
+  {
+    profile: `src/components/lib/consts/dummy/profile${
+      Math.floor(Math.random() * 2) + 2
+    }.svg`,
+    name: "Aiden Johnson",
+    position: "Front-end Developer",
+    last_sent: 6,
+    message_content: "Hello Relani, I have a quick question for you.",
+    is_online: false,
+  },
+  {
+    profile: `src/components/lib/consts/dummy/profile${
+      Math.floor(Math.random() * 2) + 2
+    }.svg`,
+    name: "Lily Brown",
+    position: "Project Manager",
+    last_sent: 2,
+    message_content:
+      "Hi Relani, could you please send me the latest updates on the project?",
+    is_online: true,
+  },
+  {
+    profile: `src/components/lib/consts/dummy/profile${
+      Math.floor(Math.random() * 2) + 2
+    }.svg`,
+    name: "Oliver White",
+    position: "Marketing Specialist",
+    last_sent: 5,
+    message_content: "Hi Relani, How are you today?",
+    is_online: false,
+  },
+  {
+    profile: `src/components/lib/consts/dummy/profile${
+      Math.floor(Math.random() * 2) + 2
+    }.svg`,
+    name: "Sophia Wilson",
+    position: "Software Engineer",
+    last_sent: 9,
+    message_content: "Hi Relani, I heard you have some exciting news to share.",
+    is_online: true,
+  },
+  {
+    profile: `src/components/lib/consts/dummy/profile${
+      Math.floor(Math.random() * 2) + 2
+    }.svg`,
+    name: "Noah Taylor",
+    position: "Data Analyst",
+    last_sent: 8,
+    message_content: "Hello Relani, Can we schedule a meeting for tomorrow?",
+    is_online: false,
+  },
+  {
+    profile: `src/components/lib/consts/dummy/profile${
+      Math.floor(Math.random() * 2) + 2
+    }.svg`,
+    name: "Isabella Lee",
+    position: "Product Manager",
+    last_sent: 7,
+    message_content: "Hi Relani, it's been a while. How have you been?",
+    is_online: true,
+  },
+  {
+    profile: `src/components/lib/consts/dummy/profile${
+      Math.floor(Math.random() * 2) + 2
+    }.svg`,
+    name: "Liam Hall",
+    position: "Graphic Designer",
+    last_sent: 4,
+    message_content: "Hi Relani, could you review this document for me?",
+    is_online: true,
+  },
+  {
+    profile: `src/components/lib/consts/dummy/profile${
+      Math.floor(Math.random() * 2) + 2
+    }.svg`,
+    name: "Ava Clark",
+    position: "Content Writer",
+    last_sent: 1,
+    message_content:
+      "Hi Relani, I have some new design ideas I'd like to discuss with you.",
+    is_online: false,
+  },
+];
