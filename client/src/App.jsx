@@ -4,6 +4,8 @@ import Dashboard from "./pages/Dashboard";
 import Messages from "./pages/Messages";
 import { Profile } from "./pages/Profile";
 import AllApplicants from "./pages/AllApplicants";
+import JobListing from "./pages/JobListing";
+import Schedule from "./pages/Schedule";
 
 function App() {
   return (

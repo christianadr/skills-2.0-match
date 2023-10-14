@@ -1,4 +1,5 @@
 import React from "react";
+import { Avatar } from "@material-tailwind/react";
 
 export const Profile = () => {
   return (
@@ -86,25 +87,39 @@ export const Profile = () => {
       <hr></hr> <br></br>
       <div class="grid grid-cols-2 gap-6">
         <div class=" ...">
-          {" "}
-          <div class="text-3xl font-bold">Open Positions</div> <br></br>
-          <div class="grid grid-flow-row-dense grid-cols-5 grid-rows-5">
-            <div>
-              <img src="src/assets/dell-logo.svg" height={"90"} width={"90"} />
-            </div>
-            <div class=" col-start-2 col-end-5">
-              Social Media Assistant <p>Dell - Philippines</p>
-              <button class="button ">Full Time</button>
-              <button class="button ">Marketing</button>
-              <button class="button ">Design</button>
-            </div>
+          <div class="text-3xl font-bold">Open Positions</div>
+          <div className="flex flex-col py-5 gap-3">
+            <PositionWrapper></PositionWrapper>
+            <PositionWrapper></PositionWrapper>
+            <PositionWrapper></PositionWrapper>
+            <PositionWrapper></PositionWrapper>
           </div>
         </div>
-        <div class=" ...">
-          Show all jobs
-          <img src="src/assets/dell-logo.svg" height={"90"} width={"90"} />
-        </div>
+        <div class=" ...">Show all jobs</div>
       </div>
     </div>
   );
 };
+
+function PositionWrapper() {
+  return (
+    <div className="flex flex-row border p-5 gap-5">
+      <Avatar src="src/assets/dell-logo.svg" size="xl" />
+      <div className="flex flex-col">
+        <span className="font-bold text-xl">Social Media Assistant</span>
+        <span className="font-bold text-gray">Dell - Philippines</span>
+        <div className="flex flex-row py-3 gap-3">
+          <div className="bg-light-yellow p-2 rounded-md">
+            <span className="font-bold">Full Time</span>
+          </div>
+          <div className="border border-dark-yellow p-2 rounded-md">
+            <span className="font-bold text-dark-yellow">Marketing</span>
+          </div>
+          <div className="border border-green p-2 rounded-md">
+            <span className="font-bold text-green">Design</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

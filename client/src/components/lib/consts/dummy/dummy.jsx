@@ -206,7 +206,8 @@ export const CONTACTS = [
 export const DUMMY_JOB_LISTING = [
   {
     position: "UI Designer",
-    location: "Remote - Cavite City",
+    location: "Cavite City",
+    workplaceType: "Remote",
     salary: 266,
     reqSkills: [
       "Good Decision Making",
@@ -219,7 +220,8 @@ export const DUMMY_JOB_LISTING = [
 
   {
     position: "Web Developer",
-    location: "Onsite - Quezon City",
+    location: "Quezon City",
+    workplaceType: "Onsite",
     salary: 530,
     reqSkills: [
       "Analytical Skills",
@@ -232,7 +234,8 @@ export const DUMMY_JOB_LISTING = [
 
   {
     position: "Social Media Manager",
-    location: "Online - Pasig City",
+    location: "Pasig City",
+    workplaceType: "Remote",
     salary: 230,
     reqSkills: [
       "Good Communication Skills",
@@ -245,7 +248,8 @@ export const DUMMY_JOB_LISTING = [
 
   {
     position: "Tour Guide",
-    location: "Onsite - Batangas City",
+    location: "Batangas City",
+    workplaceType: "Onsite",
     salary: 120,
     reqSkills: [
       "Good Communication Skills",
