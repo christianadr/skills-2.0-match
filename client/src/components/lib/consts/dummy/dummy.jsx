@@ -76,7 +76,13 @@ export const JOB_UPDATES = [
   {
     image: "src/assets/dell-logo.svg",
     job_type: "Full Time",
-    position: "Social Media Assistant",
+    position: "Social Media Developer",
+    company: "Dell - Philippines",
+  },
+  {
+    image: "src/assets/dell-logo.svg",
+    job_type: "Full Time",
+    position: "Senior Developer",
     company: "Dell - Philippines",
   },
   {
@@ -88,13 +94,7 @@ export const JOB_UPDATES = [
   {
     image: "src/assets/dell-logo.svg",
     job_type: "Full Time",
-    position: "Social Media Assistant",
-    company: "Dell - Philippines",
-  },
-  {
-    image: "src/assets/dell-logo.svg",
-    job_type: "Full Time",
-    position: "Social Media Assistant",
+    position: "Marketing",
     company: "Dell - Philippines",
   },
 ];
@@ -200,5 +200,59 @@ export const CONTACTS = [
     message_content:
       "Hi Relani, I have some new design ideas I'd like to discuss with you.",
     is_online: false,
+  },
+];
+
+export const DUMMY_JOB_LISTING = [
+  {
+    position: "UI Designer",
+    location: "Remote - Cavite City",
+    salary: 266,
+    reqSkills: [
+      "Good Decision Making",
+      "Creative",
+      "Good Visualization",
+      "Time Management",
+    ],
+    jobType: "Contract",
+  },
+
+  {
+    position: "Web Developer",
+    location: "Onsite - Quezon City",
+    salary: 530,
+    reqSkills: [
+      "Analytical Skills",
+      "Basic Javascript Skills",
+      "Basic HTML/CSS Skills",
+      "Good Listener",
+    ],
+    jobType: "Full-time",
+  },
+
+  {
+    position: "Social Media Manager",
+    location: "Online - Pasig City",
+    salary: 230,
+    reqSkills: [
+      "Good Communication Skills",
+      "Project Management",
+      "Flexibility",
+      "Creativity",
+    ],
+    jobType: "Contract",
+  },
+
+  {
+    position: "Tour Guide",
+    location: "Onsite - Batangas City",
+    salary: 120,
+    reqSkills: [
+      "Good Communication Skills",
+      "Good Humor",
+      "Good at Researching",
+      "Good at Storytelling",
+    ],
+    jobType: "Part-time",
   },
 ];

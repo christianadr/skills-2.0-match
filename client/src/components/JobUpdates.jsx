@@ -10,10 +10,9 @@ export default function JobUpdates() {
         <strong className="font-bold text-xl">View All</strong>
       </div>
       <div className="flex gap-2 py-4">
-        <BoxWrapper></BoxWrapper>
-        <BoxWrapper></BoxWrapper>
-        <BoxWrapper></BoxWrapper>
-        <BoxWrapper></BoxWrapper>
+        {JOB_UPDATES.map((item) => (
+          <BoxWrapper children={item}></BoxWrapper>
+        ))}
       </div>
     </div>
   );
@@ -25,12 +24,12 @@ function BoxWrapper({ children }) {
       <div className="flex flex-row justify-between items-center py-4">
         <Avatar src="src/assets/dell-logo.svg" size="xl" />
         <div className="bg-light-yellow rounded-lg p-3">
-          <span className="font-bold">Full Time</span>
+          <span className="font-bold">{children.job_type}</span>
         </div>
       </div>
       <div className="flex flex-col py-4">
-        <span className="font-bold">Social Media Assistant</span>
-        <span className="font-bold text-sm">Dell - Philippines</span>
+        <span className="font-bold">{children.position}</span>
+        <span className="font-bold text-sm">{children.company}</span>
       </div>
       <div className="flex flex-row gap-1.5">
         <div className="border border-dark-yellow rounded-lg p-3">
