@@ -1,7 +1,7 @@
 import React from "react";
 import classNames from "classnames";
 // import { ReactComponent as Vector1 } from "../assets/Vector 1.svg"
-// import Logo from "";
+import Logo from "../lib/consts/logo/Skills2MatchLOGO.svg";
 import { Link, useLocation } from "react-router-dom";
 import { Avatar, Typography } from "@material-tailwind/react";
 import {
@@ -18,6 +18,9 @@ export default function Sidebar() {
     <div className="bg-light-blue w-72 p-3 flex flex-col">
       <div className="flex items-center gap-2 px-1 py-3">
         {/* <Logo width="60px" height="60px" /> */}
+        <img
+          src={"client/src/components/lib/consts/logo/Skills2MatchLOGO.svg"}
+        />
         <span className="font-bold">Skills2.0Match</span>
       </div>
       <div className="flex-2 py-5 flex flex-col gap-1.5">

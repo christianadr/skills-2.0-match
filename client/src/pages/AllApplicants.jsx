@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { DataGrid } from "@mui/x-data-grid";
+import { DataGrid, GridToolbar } from "@mui/x-data-grid";
 import { renderStatus } from "../components/lib/consts/renderers/renderStatus";
 
 const columns = [
@@ -63,6 +63,12 @@ export default function AllApplicants() {
           columns={columns}
           pagination
           initialState={{ pagination: { paginationModel: { pageSize: 10 } } }}
+          slots={{ toolbar: GridToolbar }}
+          slotProps={{
+            toolbar: {
+              showQuickFilter: true,
+            },
+          }}
         />
       </div>
     </div>
